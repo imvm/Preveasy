@@ -10,7 +10,11 @@ We used the following GR1D platform APIs for this project:
 
 # Team members:
 Victor Lins - UX
+
 Guilherme Daguir - UX
+
 Camilla Gonzaga - Business
+
 Terry Wenderson - Business
+
 Ian Mateus - Programming
