@@ -5,8 +5,13 @@ This application does this and that.
 
 We used the following GR1D platform APIs for this project:
 
-1. 
-2. 
+1. Mongeral (Previdência)
+
+2. ???
+
+3. ???
+
+We used swagger-codegen to generate the client-side code for making the API requests.
 
 # Team members:
 Victor Lins - UX
