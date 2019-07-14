@@ -6,10 +6,13 @@ Essa aplicação faz isso e aquilo para vender os seguros de previdência da Mon
 Nós usamos as seguintes APIs da plataforma [GR1D](https://insurance.gr1d.io/) para esse projeto:
 
 1. [Mongeral](https://www.mongeralaegon.com.br/) (Previdência)
+Vendemos os produtos de previdência da Mongeral através dessa API.
 
 2. [Compline](https://www.compline.com.br/) (OCR)
+Usamos essa API para escanear a documentação necessária para fazer a solicitação de previdência.
 
 3. [PrintLaser](http://www.printlaser.com/) (Email)
+Usado para notificar o usuário quando a solicitação de previdência é aceita pela Mongeral.
 
 Usamos [swagger-codegen](https://github.com/swagger-api/swagger-codegen) para gerar o código client-side que faz as requisições.
 
