@@ -7,9 +7,9 @@ Nós usamos as seguintes APIs da plataforma [GR1D](https://insurance.gr1d.io/) p
 
 1. [Mongeral](https://www.mongeralaegon.com.br/) (Previdência)
 
-2. ???
+2. [Compline](https://www.compline.com.br/) (OCR)
 
-3. ???
+3. [PrintLaser](http://www.printlaser.com/) (Email)
 
 Usamos [swagger-codegen](https://github.com/swagger-api/swagger-codegen) para gerar o código client-side que faz as requisições.
 
