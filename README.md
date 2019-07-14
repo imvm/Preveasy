@@ -1,7 +1,7 @@
 # HackGR1D
 Esse projeto foi desenvolvido durante a [Hackathon GR1D Recife](https://hackagr1d.com.br/) 2019.
 
-Essa aplicação faz isso e aquilo para vender os seguros de previdência da Mongeral.
+Essa aplicação oferece uma forma interativa de adquirir um produto de previdência personalizado da Mongeral. O usuário informa ao aplicativo os seus objetivos e o aplicativo mostra o produto mais relevante para o contexto do usuário.
 
 Nós usamos as seguintes APIs da plataforma [GR1D](https://insurance.gr1d.io/) para esse projeto:
 
