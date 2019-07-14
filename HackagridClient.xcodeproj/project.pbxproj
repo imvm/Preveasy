@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B457BCBBEE707467A11412E /* Pods_HackagridClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159DE71FCA152F739D5C838B /* Pods_HackagridClient.framework */; };
+		2B28B9AE22DAD14C00B5760D /* DataExtractionInlineObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9A722DAD14B00B5760D /* DataExtractionInlineObject.swift */; };
+		2B28B9AF22DAD14C00B5760D /* CreateJobRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9A822DAD14B00B5760D /* CreateJobRequest.swift */; };
+		2B28B9B022DAD14C00B5760D /* Processing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9A922DAD14B00B5760D /* Processing.swift */; };
+		2B28B9B122DAD14C00B5760D /* ProblemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9AA22DAD14B00B5760D /* ProblemResponse.swift */; };
+		2B28B9B222DAD14C00B5760D /* CreateJobResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9AB22DAD14B00B5760D /* CreateJobResponse.swift */; };
+		2B28B9B322DAD14C00B5760D /* StartJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9AC22DAD14B00B5760D /* StartJob.swift */; };
+		2B28B9B422DAD14C00B5760D /* JobResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9AD22DAD14C00B5760D /* JobResult.swift */; };
+		2B28B9B622DAD15400B5760D /* JobsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9B522DAD15400B5760D /* JobsAPI.swift */; };
+		2B28B9B822DAD17D00B5760D /* StatisticsTodosAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9B722DAD17D00B5760D /* StatisticsTodosAPI.swift */; };
+		2B28B9C322DAD18700B5760D /* ResumoMensalBMFDrv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9B922DAD18600B5760D /* ResumoMensalBMFDrv.swift */; };
+		2B28B9C422DAD18700B5760D /* RespostaResumoMensalCamaraLDL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9BA22DAD18600B5760D /* RespostaResumoMensalCamaraLDL.swift */; };
+		2B28B9C522DAD18700B5760D /* ResumoMensalSelic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9BB22DAD18600B5760D /* ResumoMensalSelic.swift */; };
+		2B28B9C622DAD18700B5760D /* RespostaResumoMensalBMF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9BC22DAD18600B5760D /* RespostaResumoMensalBMF.swift */; };
+		2B28B9C722DAD18700B5760D /* ResumoMensalC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9BD22DAD18600B5760D /* ResumoMensalC3.swift */; };
+		2B28B9C822DAD18700B5760D /* ResumoMensalCamaraLDL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9BE22DAD18600B5760D /* ResumoMensalCamaraLDL.swift */; };
+		2B28B9C922DAD18700B5760D /* ResumoMensalBMF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9BF22DAD18600B5760D /* ResumoMensalBMF.swift */; };
+		2B28B9CA22DAD18700B5760D /* RespostaResumoMensalBMFDrv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9C022DAD18600B5760D /* RespostaResumoMensalBMFDrv.swift */; };
+		2B28B9CB22DAD18700B5760D /* RespostaResumoMensalSelic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9C122DAD18700B5760D /* RespostaResumoMensalSelic.swift */; };
+		2B28B9CC22DAD18700B5760D /* RespostaResumoMensalC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9C222DAD18700B5760D /* RespostaResumoMensalC3.swift */; };
+		2B28B9D022DAD1A400B5760D /* EnvioRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9CD22DAD1A400B5760D /* EnvioRequest.swift */; };
+		2B28B9D122DAD1A400B5760D /* EmailInlineObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9CE22DAD1A400B5760D /* EmailInlineObject.swift */; };
+		2B28B9D222DAD1A400B5760D /* InlineResponseDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9CF22DAD1A400B5760D /* InlineResponseDefault.swift */; };
+		2B28B9D422DAD1AC00B5760D /* EmailTodosAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28B9D322DAD1AC00B5760D /* EmailTodosAPI.swift */; };
+		2BA85D8D22DB0DE30036796D /* SimulationResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85D8C22DB0DE30036796D /* SimulationResponses.swift */; };
+		2BA85D9322DB13660036796D /* ProposalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85D8E22DB13650036796D /* ProposalAPI.swift */; };
+		2BA85D9522DB13660036796D /* DomainAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85D9022DB13650036796D /* DomainAPI.swift */; };
+		2BA85D9622DB13660036796D /* SimulationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85D9122DB13660036796D /* SimulationAPI.swift */; };
+		2BA85D9722DB13660036796D /* TimelineAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85D9222DB13660036796D /* TimelineAPI.swift */; };
+		2BA85D9922DB14370036796D /* DocumentByIDResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85D9822DB14370036796D /* DocumentByIDResponse.swift */; };
+		2BA85D9B22DB14B40036796D /* BankDomainResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85D9A22DB14B40036796D /* BankDomainResponse.swift */; };
+		2BA85D9D22DB157A0036796D /* CBODomainResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85D9C22DB157A0036796D /* CBODomainResponse.swift */; };
+		2BA85D9F22DB16450036796D /* RegisteredProposalResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85D9E22DB16450036796D /* RegisteredProposalResponse.swift */; };
+		2BA85DA122DB188B0036796D /* TimelineResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85DA022DB188B0036796D /* TimelineResponse.swift */; };
+		2BA85DA522DB19B90036796D /* RegisteredProposalRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85DA422DB19B90036796D /* RegisteredProposalRequest.swift */; };
+		2BA85DA722DB1AA50036796D /* SimulationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85DA622DB1AA50036796D /* SimulationRequest.swift */; };
+		2BA85DAA22DB27EF0036796D /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85DA922DB27EF0036796D /* HomeScreenViewController.swift */; };
+		2BA85DAC22DB39C80036796D /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85DAB22DB39C80036796D /* PreferencesViewController.swift */; };
+		2BA85DAE22DB3AF90036796D /* SimulatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85DAD22DB3AF90036796D /* SimulatorViewController.swift */; };
+		2BA85DB022DB3B0F0036796D /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85DAF22DB3B0F0036796D /* PlanViewController.swift */; };
+		2BA85DB622DB3B5D0036796D /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85DB522DB3B5D0036796D /* HistoryTableViewController.swift */; };
+		2BA85DB822DB3B670036796D /* AccountsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA85DB722DB3B670036796D /* AccountsTableViewController.swift */; };
+		2BB00B1722DA949000799087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00B1622DA949000799087 /* AppDelegate.swift */; };
+		2BB00B1922DA949000799087 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00B1822DA949000799087 /* ViewController.swift */; };
+		2BB00B1C22DA949000799087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB00B1A22DA949000799087 /* Main.storyboard */; };
+		2BB00B1E22DA949100799087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB00B1D22DA949100799087 /* Assets.xcassets */; };
+		2BB00B2122DA949100799087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB00B1F22DA949100799087 /* LaunchScreen.storyboard */; };
+		2BB00B2C22DA949100799087 /* HackagridClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00B2B22DA949100799087 /* HackagridClientTests.swift */; };
+		2BB00B3722DA949100799087 /* HackagridClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00B3622DA949100799087 /* HackagridClientUITests.swift */; };
+		2BB00BBA22DA987000799087 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BB122DA986F00799087 /* Models.swift */; };
+		2BB00BBB22DA987000799087 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BB222DA986F00799087 /* CodableHelper.swift */; };
+		2BB00BBC22DA987000799087 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BB322DA986F00799087 /* Extensions.swift */; };
+		2BB00BBD22DA987000799087 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BB422DA986F00799087 /* JSONEncodableEncoding.swift */; };
+		2BB00BBE22DA987000799087 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BB522DA987000799087 /* AlamofireImplementations.swift */; };
+		2BB00BBF22DA987000799087 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BB622DA987000799087 /* APIs.swift */; };
+		2BB00BC022DA987000799087 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BB722DA987000799087 /* APIHelper.swift */; };
+		2BB00BC122DA987000799087 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BB822DA987000799087 /* Configuration.swift */; };
+		2BB00BC222DA987000799087 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BB922DA987000799087 /* JSONEncodingHelper.swift */; };
+		2BB00BCB22DA987A00799087 /* ProposalModelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BC522DA987A00799087 /* ProposalModelAPI.swift */; };
+		2BB00C1722DA988C00799087 /* ProposalModelsReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB00BF122DA988A00799087 /* ProposalModelsReponse.swift */; };
+		C194E6CB15B1C440D7C98076 /* Pods_HackagridClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744D6A80B73C288A37AE790F /* Pods_HackagridClientUITests.framework */; };
+		C1A6835C60774D93B418A4CB /* Pods_HackagridClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA990F50F20FCA33518F85B /* Pods_HackagridClientTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB00B2822DA949100799087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB00B0B22DA949000799087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB00B1222DA949000799087;
+			remoteInfo = HackagridClient;
+		};
+		2BB00B3322DA949100799087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB00B0B22DA949000799087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB00B1222DA949000799087;
+			remoteInfo = HackagridClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E3778B5791F4031418A2566 /* Pods-HackagridClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackagridClientUITests.debug.xcconfig"; path = "Target Support Files/Pods-HackagridClientUITests/Pods-HackagridClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		159DE71FCA152F739D5C838B /* Pods_HackagridClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackagridClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20040C37DCD1B924939B280E /* Pods-HackagridClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackagridClient.debug.xcconfig"; path = "Target Support Files/Pods-HackagridClient/Pods-HackagridClient.debug.xcconfig"; sourceTree = "<group>"; };
+		2B28B9A722DAD14B00B5760D /* DataExtractionInlineObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtractionInlineObject.swift; sourceTree = "<group>"; };
+		2B28B9A822DAD14B00B5760D /* CreateJobRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateJobRequest.swift; sourceTree = "<group>"; };
+		2B28B9A922DAD14B00B5760D /* Processing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Processing.swift; sourceTree = "<group>"; };
+		2B28B9AA22DAD14B00B5760D /* ProblemResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemResponse.swift; sourceTree = "<group>"; };
+		2B28B9AB22DAD14B00B5760D /* CreateJobResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateJobResponse.swift; sourceTree = "<group>"; };
+		2B28B9AC22DAD14B00B5760D /* StartJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartJob.swift; sourceTree = "<group>"; };
+		2B28B9AD22DAD14C00B5760D /* JobResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobResult.swift; sourceTree = "<group>"; };
+		2B28B9B522DAD15400B5760D /* JobsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsAPI.swift; sourceTree = "<group>"; };
+		2B28B9B722DAD17D00B5760D /* StatisticsTodosAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsTodosAPI.swift; sourceTree = "<group>"; };
+		2B28B9B922DAD18600B5760D /* ResumoMensalBMFDrv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumoMensalBMFDrv.swift; sourceTree = "<group>"; };
+		2B28B9BA22DAD18600B5760D /* RespostaResumoMensalCamaraLDL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespostaResumoMensalCamaraLDL.swift; sourceTree = "<group>"; };
+		2B28B9BB22DAD18600B5760D /* ResumoMensalSelic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumoMensalSelic.swift; sourceTree = "<group>"; };
+		2B28B9BC22DAD18600B5760D /* RespostaResumoMensalBMF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespostaResumoMensalBMF.swift; sourceTree = "<group>"; };
+		2B28B9BD22DAD18600B5760D /* ResumoMensalC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumoMensalC3.swift; sourceTree = "<group>"; };
+		2B28B9BE22DAD18600B5760D /* ResumoMensalCamaraLDL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumoMensalCamaraLDL.swift; sourceTree = "<group>"; };
+		2B28B9BF22DAD18600B5760D /* ResumoMensalBMF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumoMensalBMF.swift; sourceTree = "<group>"; };
+		2B28B9C022DAD18600B5760D /* RespostaResumoMensalBMFDrv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespostaResumoMensalBMFDrv.swift; sourceTree = "<group>"; };
+		2B28B9C122DAD18700B5760D /* RespostaResumoMensalSelic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespostaResumoMensalSelic.swift; sourceTree = "<group>"; };
+		2B28B9C222DAD18700B5760D /* RespostaResumoMensalC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespostaResumoMensalC3.swift; sourceTree = "<group>"; };
+		2B28B9CD22DAD1A400B5760D /* EnvioRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvioRequest.swift; sourceTree = "<group>"; };
+		2B28B9CE22DAD1A400B5760D /* EmailInlineObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailInlineObject.swift; sourceTree = "<group>"; };
+		2B28B9CF22DAD1A400B5760D /* InlineResponseDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineResponseDefault.swift; sourceTree = "<group>"; };
+		2B28B9D322DAD1AC00B5760D /* EmailTodosAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailTodosAPI.swift; sourceTree = "<group>"; };
+		2BA85D8C22DB0DE30036796D /* SimulationResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResponses.swift; sourceTree = "<group>"; };
+		2BA85D8E22DB13650036796D /* ProposalAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalAPI.swift; sourceTree = "<group>"; };
+		2BA85D9022DB13650036796D /* DomainAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainAPI.swift; sourceTree = "<group>"; };
+		2BA85D9122DB13660036796D /* SimulationAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulationAPI.swift; sourceTree = "<group>"; };
+		2BA85D9222DB13660036796D /* TimelineAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineAPI.swift; sourceTree = "<group>"; };
+		2BA85D9822DB14370036796D /* DocumentByIDResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentByIDResponse.swift; sourceTree = "<group>"; };
+		2BA85D9A22DB14B40036796D /* BankDomainResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDomainResponse.swift; sourceTree = "<group>"; };
+		2BA85D9C22DB157A0036796D /* CBODomainResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBODomainResponse.swift; sourceTree = "<group>"; };
+		2BA85D9E22DB16450036796D /* RegisteredProposalResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredProposalResponse.swift; sourceTree = "<group>"; };
+		2BA85DA022DB188B0036796D /* TimelineResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineResponse.swift; sourceTree = "<group>"; };
+		2BA85DA422DB19B90036796D /* RegisteredProposalRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredProposalRequest.swift; sourceTree = "<group>"; };
+		2BA85DA622DB1AA50036796D /* SimulationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationRequest.swift; sourceTree = "<group>"; };
+		2BA85DA922DB27EF0036796D /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		2BA85DAB22DB39C80036796D /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		2BA85DAD22DB3AF90036796D /* SimulatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorViewController.swift; sourceTree = "<group>"; };
+		2BA85DAF22DB3B0F0036796D /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
+		2BA85DB522DB3B5D0036796D /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		2BA85DB722DB3B670036796D /* AccountsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsTableViewController.swift; sourceTree = "<group>"; };
+		2BB00B1322DA949000799087 /* HackagridClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackagridClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB00B1622DA949000799087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BB00B1822DA949000799087 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BB00B1B22DA949000799087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BB00B1D22DA949100799087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB00B2022DA949100799087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BB00B2222DA949100799087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB00B2722DA949100799087 /* HackagridClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackagridClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB00B2B22DA949100799087 /* HackagridClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackagridClientTests.swift; sourceTree = "<group>"; };
+		2BB00B2D22DA949100799087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB00B3222DA949100799087 /* HackagridClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackagridClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB00B3622DA949100799087 /* HackagridClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackagridClientUITests.swift; sourceTree = "<group>"; };
+		2BB00B3822DA949100799087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB00BB122DA986F00799087 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2BB00BB222DA986F00799087 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		2BB00BB322DA986F00799087 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2BB00BB422DA986F00799087 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		2BB00BB522DA987000799087 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		2BB00BB622DA987000799087 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		2BB00BB722DA987000799087 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		2BB00BB822DA987000799087 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		2BB00BB922DA987000799087 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		2BB00BC522DA987A00799087 /* ProposalModelAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalModelAPI.swift; sourceTree = "<group>"; };
+		2BB00BF122DA988A00799087 /* ProposalModelsReponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalModelsReponse.swift; sourceTree = "<group>"; };
+		58DA6DCBC0CA95439A3E6FF7 /* Pods-HackagridClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackagridClient.release.xcconfig"; path = "Target Support Files/Pods-HackagridClient/Pods-HackagridClient.release.xcconfig"; sourceTree = "<group>"; };
+		5C6A3116A1E8B61F1E90225B /* Pods-HackagridClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackagridClientTests.release.xcconfig"; path = "Target Support Files/Pods-HackagridClientTests/Pods-HackagridClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		744D6A80B73C288A37AE790F /* Pods_HackagridClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackagridClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77645B4A191B846102C8AB54 /* Pods-HackagridClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackagridClientTests.debug.xcconfig"; path = "Target Support Files/Pods-HackagridClientTests/Pods-HackagridClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AA990F50F20FCA33518F85B /* Pods_HackagridClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackagridClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E5F398CE7E0C6A81C154B3 /* Pods-HackagridClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackagridClientUITests.release.xcconfig"; path = "Target Support Files/Pods-HackagridClientUITests/Pods-HackagridClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB00B1022DA949000799087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B457BCBBEE707467A11412E /* Pods_HackagridClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB00B2422DA949100799087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A6835C60774D93B418A4CB /* Pods_HackagridClientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB00B2F22DA949100799087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C194E6CB15B1C440D7C98076 /* Pods_HackagridClientUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A1AC87D80E57731678A0A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				159DE71FCA152F739D5C838B /* Pods_HackagridClient.framework */,
+				8AA990F50F20FCA33518F85B /* Pods_HackagridClientTests.framework */,
+				744D6A80B73C288A37AE790F /* Pods_HackagridClientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B28B9A122DAB95300B5760D /* DataExtractionAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				2B28B9B522DAD15400B5760D /* JobsAPI.swift */,
+			);
+			path = DataExtractionAPIs;
+			sourceTree = "<group>";
+		};
+		2B28B9A222DAB97000B5760D /* DataExtractionModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B28B9A822DAD14B00B5760D /* CreateJobRequest.swift */,
+				2B28B9AB22DAD14B00B5760D /* CreateJobResponse.swift */,
+				2B28B9A722DAD14B00B5760D /* DataExtractionInlineObject.swift */,
+				2B28B9AD22DAD14C00B5760D /* JobResult.swift */,
+				2B28B9AA22DAD14B00B5760D /* ProblemResponse.swift */,
+				2B28B9A922DAD14B00B5760D /* Processing.swift */,
+				2B28B9AC22DAD14B00B5760D /* StartJob.swift */,
+			);
+			path = DataExtractionModels;
+			sourceTree = "<group>";
+		};
+		2B28B9A322DAB97F00B5760D /* EmailAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				2B28B9D322DAD1AC00B5760D /* EmailTodosAPI.swift */,
+			);
+			path = EmailAPIs;
+			sourceTree = "<group>";
+		};
+		2B28B9A422DAB98500B5760D /* EmailModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B28B9CD22DAD1A400B5760D /* EnvioRequest.swift */,
+				2B28B9CE22DAD1A400B5760D /* EmailInlineObject.swift */,
+				2B28B9CF22DAD1A400B5760D /* InlineResponseDefault.swift */,
+			);
+			path = EmailModels;
+			sourceTree = "<group>";
+		};
+		2B28B9A522DAB99E00B5760D /* StatisticsAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				2B28B9B722DAD17D00B5760D /* StatisticsTodosAPI.swift */,
+			);
+			path = StatisticsAPIs;
+			sourceTree = "<group>";
+		};
+		2B28B9A622DAB9A400B5760D /* StatisticsModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B28B9BC22DAD18600B5760D /* RespostaResumoMensalBMF.swift */,
+				2B28B9C022DAD18600B5760D /* RespostaResumoMensalBMFDrv.swift */,
+				2B28B9C222DAD18700B5760D /* RespostaResumoMensalC3.swift */,
+				2B28B9BA22DAD18600B5760D /* RespostaResumoMensalCamaraLDL.swift */,
+				2B28B9C122DAD18700B5760D /* RespostaResumoMensalSelic.swift */,
+				2B28B9BF22DAD18600B5760D /* ResumoMensalBMF.swift */,
+				2B28B9B922DAD18600B5760D /* ResumoMensalBMFDrv.swift */,
+				2B28B9BD22DAD18600B5760D /* ResumoMensalC3.swift */,
+				2B28B9BE22DAD18600B5760D /* ResumoMensalCamaraLDL.swift */,
+				2B28B9BB22DAD18600B5760D /* ResumoMensalSelic.swift */,
+			);
+			path = StatisticsModels;
+			sourceTree = "<group>";
+		};
+		2BA85DA222DB195C0036796D /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2BA85D8C22DB0DE30036796D /* SimulationResponses.swift */,
+				2BB00BF122DA988A00799087 /* ProposalModelsReponse.swift */,
+				2BA85D9822DB14370036796D /* DocumentByIDResponse.swift */,
+				2BA85D9A22DB14B40036796D /* BankDomainResponse.swift */,
+				2BA85D9C22DB157A0036796D /* CBODomainResponse.swift */,
+				2BA85D9E22DB16450036796D /* RegisteredProposalResponse.swift */,
+				2BA85DA022DB188B0036796D /* TimelineResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2BA85DA322DB19640036796D /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA85DA422DB19B90036796D /* RegisteredProposalRequest.swift */,
+				2BA85DA622DB1AA50036796D /* SimulationRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2BA85DA822DB27C20036796D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BB00B1822DA949000799087 /* ViewController.swift */,
+				2BA85DA922DB27EF0036796D /* HomeScreenViewController.swift */,
+				2BA85DAB22DB39C80036796D /* PreferencesViewController.swift */,
+				2BA85DAD22DB3AF90036796D /* SimulatorViewController.swift */,
+				2BA85DAF22DB3B0F0036796D /* PlanViewController.swift */,
+				2BA85DB522DB3B5D0036796D /* HistoryTableViewController.swift */,
+				2BA85DB722DB3B670036796D /* AccountsTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2BB00B0A22DA949000799087 = {
+			isa = PBXGroup;
+			children = (
+				2BB00B1522DA949000799087 /* HackagridClient */,
+				2BB00B2A22DA949100799087 /* HackagridClientTests */,
+				2BB00B3522DA949100799087 /* HackagridClientUITests */,
+				2BB00B1422DA949000799087 /* Products */,
+				6CD6A040B9FFE27A21ADF629 /* Pods */,
+				27A1AC87D80E57731678A0A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB00B1422DA949000799087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB00B1322DA949000799087 /* HackagridClient.app */,
+				2BB00B2722DA949100799087 /* HackagridClientTests.xctest */,
+				2BB00B3222DA949100799087 /* HackagridClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB00B1522DA949000799087 /* HackagridClient */ = {
+			isa = PBXGroup;
+			children = (
+				2BB00B4622DA94AA00799087 /* OpenAPIClient */,
+				2BB00B1622DA949000799087 /* AppDelegate.swift */,
+				2BA85DA822DB27C20036796D /* ViewControllers */,
+				2BB00B1A22DA949000799087 /* Main.storyboard */,
+				2BB00B1D22DA949100799087 /* Assets.xcassets */,
+				2BB00B1F22DA949100799087 /* LaunchScreen.storyboard */,
+				2BB00B2222DA949100799087 /* Info.plist */,
+			);
+			path = HackagridClient;
+			sourceTree = "<group>";
+		};
+		2BB00B2A22DA949100799087 /* HackagridClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB00B2B22DA949100799087 /* HackagridClientTests.swift */,
+				2BB00B2D22DA949100799087 /* Info.plist */,
+			);
+			path = HackagridClientTests;
+			sourceTree = "<group>";
+		};
+		2BB00B3522DA949100799087 /* HackagridClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB00B3622DA949100799087 /* HackagridClientUITests.swift */,
+				2BB00B3822DA949100799087 /* Info.plist */,
+			);
+			path = HackagridClientUITests;
+			sourceTree = "<group>";
+		};
+		2BB00B4422DA949C00799087 /* MongeralModels */ = {
+			isa = PBXGroup;
+			children = (
+				2BA85DA322DB19640036796D /* Requests */,
+				2BA85DA222DB195C0036796D /* Responses */,
+			);
+			path = MongeralModels;
+			sourceTree = "<group>";
+		};
+		2BB00B4522DA94A000799087 /* MongeralAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				2BA85D9022DB13650036796D /* DomainAPI.swift */,
+				2BA85D8E22DB13650036796D /* ProposalAPI.swift */,
+				2BA85D9122DB13660036796D /* SimulationAPI.swift */,
+				2BA85D9222DB13660036796D /* TimelineAPI.swift */,
+				2BB00BC522DA987A00799087 /* ProposalModelAPI.swift */,
+			);
+			path = MongeralAPIs;
+			sourceTree = "<group>";
+		};
+		2BB00B4622DA94AA00799087 /* OpenAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				2B28B9A622DAB9A400B5760D /* StatisticsModels */,
+				2B28B9A522DAB99E00B5760D /* StatisticsAPIs */,
+				2B28B9A422DAB98500B5760D /* EmailModels */,
+				2B28B9A322DAB97F00B5760D /* EmailAPIs */,
+				2B28B9A222DAB97000B5760D /* DataExtractionModels */,
+				2B28B9A122DAB95300B5760D /* DataExtractionAPIs */,
+				2BB00BB522DA987000799087 /* AlamofireImplementations.swift */,
+				2BB00BB722DA987000799087 /* APIHelper.swift */,
+				2BB00BB622DA987000799087 /* APIs.swift */,
+				2BB00BB222DA986F00799087 /* CodableHelper.swift */,
+				2BB00BB822DA987000799087 /* Configuration.swift */,
+				2BB00BB322DA986F00799087 /* Extensions.swift */,
+				2BB00BB422DA986F00799087 /* JSONEncodableEncoding.swift */,
+				2BB00BB922DA987000799087 /* JSONEncodingHelper.swift */,
+				2BB00BB122DA986F00799087 /* Models.swift */,
+				2BB00B4522DA94A000799087 /* MongeralAPIs */,
+				2BB00B4422DA949C00799087 /* MongeralModels */,
+			);
+			path = OpenAPIClient;
+			sourceTree = "<group>";
+		};
+		6CD6A040B9FFE27A21ADF629 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20040C37DCD1B924939B280E /* Pods-HackagridClient.debug.xcconfig */,
+				58DA6DCBC0CA95439A3E6FF7 /* Pods-HackagridClient.release.xcconfig */,
+				77645B4A191B846102C8AB54 /* Pods-HackagridClientTests.debug.xcconfig */,
+				5C6A3116A1E8B61F1E90225B /* Pods-HackagridClientTests.release.xcconfig */,
+				0E3778B5791F4031418A2566 /* Pods-HackagridClientUITests.debug.xcconfig */,
+				A4E5F398CE7E0C6A81C154B3 /* Pods-HackagridClientUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB00B1222DA949000799087 /* HackagridClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB00B3B22DA949200799087 /* Build configuration list for PBXNativeTarget "HackagridClient" */;
+			buildPhases = (
+				A8FB9C8E88260EA949B43CF9 /* [CP] Check Pods Manifest.lock */,
+				2BB00B0F22DA949000799087 /* Sources */,
+				2BB00B1022DA949000799087 /* Frameworks */,
+				2BB00B1122DA949000799087 /* Resources */,
+				067DD9A99560C5C22EE0C30A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackagridClient;
+			productName = HackagridClient;
+			productReference = 2BB00B1322DA949000799087 /* HackagridClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BB00B2622DA949100799087 /* HackagridClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB00B3E22DA949200799087 /* Build configuration list for PBXNativeTarget "HackagridClientTests" */;
+			buildPhases = (
+				1EDE4762FA09304A7C650765 /* [CP] Check Pods Manifest.lock */,
+				2BB00B2322DA949100799087 /* Sources */,
+				2BB00B2422DA949100799087 /* Frameworks */,
+				2BB00B2522DA949100799087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB00B2922DA949100799087 /* PBXTargetDependency */,
+			);
+			name = HackagridClientTests;
+			productName = HackagridClientTests;
+			productReference = 2BB00B2722DA949100799087 /* HackagridClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BB00B3122DA949100799087 /* HackagridClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB00B4122DA949200799087 /* Build configuration list for PBXNativeTarget "HackagridClientUITests" */;
+			buildPhases = (
+				F6DB192CF4BC2FA8FF741358 /* [CP] Check Pods Manifest.lock */,
+				2BB00B2E22DA949100799087 /* Sources */,
+				2BB00B2F22DA949100799087 /* Frameworks */,
+				2BB00B3022DA949100799087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB00B3422DA949100799087 /* PBXTargetDependency */,
+			);
+			name = HackagridClientUITests;
+			productName = HackagridClientUITests;
+			productReference = 2BB00B3222DA949100799087 /* HackagridClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB00B0B22DA949000799087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ian Manor";
+				TargetAttributes = {
+					2BB00B1222DA949000799087 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2BB00B2622DA949100799087 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2BB00B1222DA949000799087;
+					};
+					2BB00B3122DA949100799087 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2BB00B1222DA949000799087;
+					};
+				};
+			};
+			buildConfigurationList = 2BB00B0E22DA949000799087 /* Build configuration list for PBXProject "HackagridClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BB00B0A22DA949000799087;
+			productRefGroup = 2BB00B1422DA949000799087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB00B1222DA949000799087 /* HackagridClient */,
+				2BB00B2622DA949100799087 /* HackagridClientTests */,
+				2BB00B3122DA949100799087 /* HackagridClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB00B1122DA949000799087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB00B2122DA949100799087 /* LaunchScreen.storyboard in Resources */,
+				2BB00B1E22DA949100799087 /* Assets.xcassets in Resources */,
+				2BB00B1C22DA949000799087 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB00B2522DA949100799087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB00B3022DA949100799087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		067DD9A99560C5C22EE0C30A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackagridClient/Pods-HackagridClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackagridClient/Pods-HackagridClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EDE4762FA09304A7C650765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackagridClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8FB9C8E88260EA949B43CF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackagridClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6DB192CF4BC2FA8FF741358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackagridClientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB00B0F22DA949000799087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B28B9B022DAD14C00B5760D /* Processing.swift in Sources */,
+				2B28B9C422DAD18700B5760D /* RespostaResumoMensalCamaraLDL.swift in Sources */,
+				2B28B9AE22DAD14C00B5760D /* DataExtractionInlineObject.swift in Sources */,
+				2B28B9CC22DAD18700B5760D /* RespostaResumoMensalC3.swift in Sources */,
+				2BA85DAE22DB3AF90036796D /* SimulatorViewController.swift in Sources */,
+				2B28B9C822DAD18700B5760D /* ResumoMensalCamaraLDL.swift in Sources */,
+				2BB00BC022DA987000799087 /* APIHelper.swift in Sources */,
+				2B28B9C922DAD18700B5760D /* ResumoMensalBMF.swift in Sources */,
+				2B28B9B822DAD17D00B5760D /* StatisticsTodosAPI.swift in Sources */,
+				2BA85DB022DB3B0F0036796D /* PlanViewController.swift in Sources */,
+				2BA85D9F22DB16450036796D /* RegisteredProposalResponse.swift in Sources */,
+				2BB00BBD22DA987000799087 /* JSONEncodableEncoding.swift in Sources */,
+				2BB00BBE22DA987000799087 /* AlamofireImplementations.swift in Sources */,
+				2BA85D9622DB13660036796D /* SimulationAPI.swift in Sources */,
+				2B28B9B622DAD15400B5760D /* JobsAPI.swift in Sources */,
+				2BA85DA122DB188B0036796D /* TimelineResponse.swift in Sources */,
+				2B28B9C322DAD18700B5760D /* ResumoMensalBMFDrv.swift in Sources */,
+				2BA85D8D22DB0DE30036796D /* SimulationResponses.swift in Sources */,
+				2BB00BBF22DA987000799087 /* APIs.swift in Sources */,
+				2BB00BBC22DA987000799087 /* Extensions.swift in Sources */,
+				2B28B9D122DAD1A400B5760D /* EmailInlineObject.swift in Sources */,
+				2BB00BCB22DA987A00799087 /* ProposalModelAPI.swift in Sources */,
+				2BA85DAA22DB27EF0036796D /* HomeScreenViewController.swift in Sources */,
+				2BB00C1722DA988C00799087 /* ProposalModelsReponse.swift in Sources */,
+				2B28B9B222DAD14C00B5760D /* CreateJobResponse.swift in Sources */,
+				2B28B9CB22DAD18700B5760D /* RespostaResumoMensalSelic.swift in Sources */,
+				2BB00BBB22DA987000799087 /* CodableHelper.swift in Sources */,
+				2BA85DAC22DB39C80036796D /* PreferencesViewController.swift in Sources */,
+				2BB00BC222DA987000799087 /* JSONEncodingHelper.swift in Sources */,
+				2BA85DB622DB3B5D0036796D /* HistoryTableViewController.swift in Sources */,
+				2BA85D9322DB13660036796D /* ProposalAPI.swift in Sources */,
+				2B28B9B322DAD14C00B5760D /* StartJob.swift in Sources */,
+				2BB00BC122DA987000799087 /* Configuration.swift in Sources */,
+				2BA85D9522DB13660036796D /* DomainAPI.swift in Sources */,
+				2BB00BBA22DA987000799087 /* Models.swift in Sources */,
+				2BA85DA522DB19B90036796D /* RegisteredProposalRequest.swift in Sources */,
+				2BB00B1922DA949000799087 /* ViewController.swift in Sources */,
+				2BA85DA722DB1AA50036796D /* SimulationRequest.swift in Sources */,
+				2B28B9D222DAD1A400B5760D /* InlineResponseDefault.swift in Sources */,
+				2BA85D9722DB13660036796D /* TimelineAPI.swift in Sources */,
+				2B28B9AF22DAD14C00B5760D /* CreateJobRequest.swift in Sources */,
+				2B28B9C522DAD18700B5760D /* ResumoMensalSelic.swift in Sources */,
+				2B28B9C622DAD18700B5760D /* RespostaResumoMensalBMF.swift in Sources */,
+				2B28B9C722DAD18700B5760D /* ResumoMensalC3.swift in Sources */,
+				2BB00B1722DA949000799087 /* AppDelegate.swift in Sources */,
+				2BA85D9922DB14370036796D /* DocumentByIDResponse.swift in Sources */,
+				2B28B9B422DAD14C00B5760D /* JobResult.swift in Sources */,
+				2B28B9CA22DAD18700B5760D /* RespostaResumoMensalBMFDrv.swift in Sources */,
+				2B28B9D022DAD1A400B5760D /* EnvioRequest.swift in Sources */,
+				2BA85DB822DB3B670036796D /* AccountsTableViewController.swift in Sources */,
+				2B28B9B122DAD14C00B5760D /* ProblemResponse.swift in Sources */,
+				2BA85D9B22DB14B40036796D /* BankDomainResponse.swift in Sources */,
+				2B28B9D422DAD1AC00B5760D /* EmailTodosAPI.swift in Sources */,
+				2BA85D9D22DB157A0036796D /* CBODomainResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB00B2322DA949100799087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB00B2C22DA949100799087 /* HackagridClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB00B2E22DA949100799087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB00B3722DA949100799087 /* HackagridClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB00B2922DA949100799087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB00B1222DA949000799087 /* HackagridClient */;
+			targetProxy = 2BB00B2822DA949100799087 /* PBXContainerItemProxy */;
+		};
+		2BB00B3422DA949100799087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB00B1222DA949000799087 /* HackagridClient */;
+			targetProxy = 2BB00B3322DA949100799087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BB00B1A22DA949000799087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB00B1B22DA949000799087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BB00B1F22DA949100799087 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB00B2022DA949100799087 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB00B3922DA949200799087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BB00B3A22DA949200799087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BB00B3C22DA949200799087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20040C37DCD1B924939B280E /* Pods-HackagridClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
+				INFOPLIST_FILE = HackagridClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imvm.HackagridClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BB00B3D22DA949200799087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DA6DCBC0CA95439A3E6FF7 /* Pods-HackagridClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
+				INFOPLIST_FILE = HackagridClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imvm.HackagridClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BB00B3F22DA949200799087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77645B4A191B846102C8AB54 /* Pods-HackagridClientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
+				INFOPLIST_FILE = HackagridClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imvm.HackagridClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackagridClient.app/HackagridClient";
+			};
+			name = Debug;
+		};
+		2BB00B4022DA949200799087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6A3116A1E8B61F1E90225B /* Pods-HackagridClientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
+				INFOPLIST_FILE = HackagridClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imvm.HackagridClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackagridClient.app/HackagridClient";
+			};
+			name = Release;
+		};
+		2BB00B4222DA949200799087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3778B5791F4031418A2566 /* Pods-HackagridClientUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
+				INFOPLIST_FILE = HackagridClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imvm.HackagridClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackagridClient;
+			};
+			name = Debug;
+		};
+		2BB00B4322DA949200799087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E5F398CE7E0C6A81C154B3 /* Pods-HackagridClientUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
+				INFOPLIST_FILE = HackagridClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imvm.HackagridClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackagridClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB00B0E22DA949000799087 /* Build configuration list for PBXProject "HackagridClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB00B3922DA949200799087 /* Debug */,
+				2BB00B3A22DA949200799087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB00B3B22DA949200799087 /* Build configuration list for PBXNativeTarget "HackagridClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB00B3C22DA949200799087 /* Debug */,
+				2BB00B3D22DA949200799087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB00B3E22DA949200799087 /* Build configuration list for PBXNativeTarget "HackagridClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB00B3F22DA949200799087 /* Debug */,
+				2BB00B4022DA949200799087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB00B4122DA949200799087 /* Build configuration list for PBXNativeTarget "HackagridClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB00B4222DA949200799087 /* Debug */,
+				2BB00B4322DA949200799087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB00B0B22DA949000799087 /* Project object */;
+}
