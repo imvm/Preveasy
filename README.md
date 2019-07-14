@@ -37,8 +37,14 @@ Usamos [swagger-codegen](https://github.com/swagger-api/swagger-codegen) e [Quic
 * O primeiro protótipo está sendo desenvolvido para a plataforma iOS.
 
 ## Membros da Equipe:
+![Time 5](https://imgur.com/QpabFsT.png)
 - [Victor Lins](https://www.linkedin.com/in/victor-lins-3a9035168/) - UX
+![Time 2](https://imgur.com/h5tXQr4.png)
 - [Guilherme Daguir](https://br.linkedin.com/in/guilherme-daguir) - UX
+![Time 1](https://imgur.com/e4GU248.png)
 - [Camilla Gonzaga](https://www.linkedin.com/in/camillagmoreira/) - Business
+![Time 4](https://imgur.com/7MbMfso.png)
 - [Terry Wenderson](https://br.linkedin.com/in/terryalvis) - Business
+![Time 3](https://imgur.com/EPgK7wS.png)
 - [Ian Mateus](https://br.linkedin.com/in/ian-manor) - Programming
+
