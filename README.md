@@ -5,19 +5,19 @@ Nosso projeto é uma aplicação multiplataforma* que oferece uma forma interati
 
 Nós usamos as seguintes APIs da plataforma [GR1D](https://insurance.gr1d.io/) para esse projeto:
 
-1. [Mongeral](https://www.mongeralaegon.com.br/) (Previdência)
+## 1. [Mongeral](https://www.mongeralaegon.com.br/) (Previdência)
 
 Vendemos os produtos de previdência da Mongeral através dessa API.
 
-2. [Em andamento] [Compline](https://www.compline.com.br/) (OCR)
+## 2. [Em andamento] [Compline](https://www.compline.com.br/) (OCR)
 
 Usado para escanear a documentação necessária para fazer a solicitação de previdência.
 
-3. [Em andamento] [PrintLaser](http://www.printlaser.com/) (Email)
+## 3. [Em andamento] [PrintLaser](http://www.printlaser.com/) (Email)
 
 Usado para notificar o usuário quando a solicitação de previdência é aceita pela Mongeral.
 
-4. [Em andamento] [Banco Central](https://www.bcb.gov.br/) (Estatísticas)
+## 4. [Em andamento] [Banco Central](https://www.bcb.gov.br/) (Estatísticas)
 
 Fonte de consultas de taxas e juros para que nossa empresa faça comparativos entre serviços financeiros de investimento a longo termo.
 
