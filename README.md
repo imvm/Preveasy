@@ -1,4 +1,4 @@
-![Proveasy Logo](https://imgur.com/r8rAu5p)
+![Proveasy Logo](https://imgur.com/r8rAu5p.png)
 
 # Preveasy
 Esse projeto foi desenvolvido durante a [Hackathon GR1D Recife](https://hackagr1d.com.br/) 2019.
