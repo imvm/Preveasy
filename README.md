@@ -3,6 +3,11 @@
 # Preveasy
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 
+![Proveasy 1](https://imgur.com/m4LAn9O.png)
+![Proveasy 2](https://imgur.com/ZrJtTD3.png)
+![Proveasy 3](https://imgur.com/yh9AE7l.png)
+![Proveasy 4](https://imgur.com/DhenwLg.png)
+
 Esse projeto foi desenvolvido durante a [Hackathon GR1D Recife](https://hackagr1d.com.br/) 2019.
 
 Nosso projeto é uma aplicação multiplataforma* que oferece uma forma interativa de adquirir um produto de previdência personalizado da Mongeral. O usuário informa ao aplicativo os seus objetivos e o aplicativo mostra o produto mais relevante para o contexto do usuário.
